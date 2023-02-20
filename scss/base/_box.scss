@@ -1,0 +1,28 @@
+.margin-one{
+	margin: 1.5%;
+	color: aliceblue;
+}
+.margin-two{
+	margin: 3%;
+	margin-top: 15%;
+}
+.margin-bottom{
+	margin-bottom: 8%;
+}
+.column-md{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+.row-md{
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+}
+span{
+	display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+}

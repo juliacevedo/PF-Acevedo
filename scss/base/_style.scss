@@ -5,17 +5,6 @@
 	margin-top: 10px;
 	margin-left: 2%;
 }
-.margin-one{
-	margin: 1.5%;
-	color: aliceblue;
-}
-.margin-two{
-	margin: 3%;
-	margin-top: 15%;
-}
-.margin-bottom{
-	margin-bottom: 8%;
-}
 .relative_position{
 	line-height: 0%;
 	position: relative;
@@ -55,17 +44,6 @@
 	padding-top: 5%;
 	align-self: center;
 }
-.column-md{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-}
-.row-md{
-	display: flex;
-	flex-direction: row;
-	vertical-align: middle;
-}
 .column-text{
 	display: flex;
 	flex-direction: column;
@@ -80,12 +58,6 @@
 	height: 30px;
   
 	margin: 15%
-}
-span{
-	display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: space-around;
 }
 #wings2{
 	width: 70px;
