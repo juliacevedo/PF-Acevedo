@@ -1,16 +1,17 @@
-/* BASE */
 @import 'base/reset';
+
+/* BASE */
 @import 'base/color';
 @import 'base/font';
 @import 'base/style';
 @import 'base/box';
 
-/* GRID SYSTEM */
-@import './grid/variables';
-@import './grid/mixins';
-@import './grid/grid';
-
 /* LAYOUTS */
 @import 'layout/header';
 @import 'layout/form';
 @import 'layout/footer';
+
+/* GRID SYSTEM */
+@import './grid/variables';
+@import './grid/mixins';
+@import './grid/grid';
