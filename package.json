@@ -6,7 +6,7 @@
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Lia",
   "license": "ISC",
   "dependencies": {
     "abbrev": "^1.1.1",
