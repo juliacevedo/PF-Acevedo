@@ -380,12 +380,12 @@ li {
   .visible_menu nav {
     left: 0;
     opacity: 100%; }
-  .visible_menu #content {
+  .visible_menu#content {
     transform: translateX(260px); }
   .semivisible_menu nav {
     left: 0;
     opacity: 20%; }
-  .semivisible_menu #content {
+  .semivisible_menu#content {
     transform: translateX(50px); }
   input:checked ~ label {
     background: #001b7a; }

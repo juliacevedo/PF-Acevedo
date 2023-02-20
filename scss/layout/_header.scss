@@ -61,12 +61,12 @@ li{
 		background: #fff;
 		transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
 		transform-origin : 0px 100%;
-		&:nth-child(2){
-			top: calc(50% - 2px);
-		}
-		&:nth-child(3){
-			bottom: 0;
-		}
+			&:nth-child(2){
+				top: calc(50% - 2px);
+			}
+			&:nth-child(3){
+				bottom: 0;
+			}
 		}
  	}
  	nav{
@@ -116,7 +116,7 @@ li{
 		left: 0;
 		opacity: 100%;
 		}
-		#content{
+		&#content{
 		transform: translateX(260px);
   		}
 	}
@@ -125,7 +125,7 @@ li{
 		  left: 0;
 		  opacity: 20%;
   		}
-  		#content{
+  		&#content{
 		transform: translateX(50px);
  	 	}
 	}
