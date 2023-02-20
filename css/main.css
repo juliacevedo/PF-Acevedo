@@ -126,6 +126,11 @@ h6 {
   width: 70px;
   margin-top: -8%; }
 
+.row {
+  width: 100%;
+  display: table;
+  content: ""; }
+
 .margin-one {
   margin: 1.5%;
   color: aliceblue; }
