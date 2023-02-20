@@ -106,7 +106,7 @@ h6 {
   position: absolute;
   top: 40%;
   left: 35%; }
-  .name :hover {
+  .name:hover {
     opacity: 70%;
     width: 40%;
     position: absolute;
@@ -135,13 +135,6 @@ h6 {
   width: 70px;
   margin-top: -8%; }
 
-@media screen and (max-width: 820px) {
-  #LOGO {
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
-    margin-left: 2%; } }
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -153,6 +146,13 @@ h6 {
   line-height: 1.5;
   border-radius: .25rem;
   color: #fff; }
+
+@media screen and (max-width: 820px) {
+  #LOGO {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 2%; } }
 
 .container-fluid {
   width: 100%; }
@@ -231,7 +231,7 @@ span {
   position: absolute;
   top: 40%;
   left: 35%; }
-  .name :hover {
+  .name:hover {
     opacity: 70%;
     width: 40%;
     position: absolute;
@@ -260,13 +260,6 @@ span {
   width: 70px;
   margin-top: -8%; }
 
-@media screen and (max-width: 820px) {
-  #LOGO {
-    width: 30px;
-    height: 30px;
-    margin-top: 5px;
-    margin-left: 2%; } }
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -278,6 +271,13 @@ span {
   line-height: 1.5;
   border-radius: .25rem;
   color: #fff; }
+
+@media screen and (max-width: 820px) {
+  #LOGO {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 2%; } }
 
 header {
   width: 100%;
@@ -297,7 +297,7 @@ nav a {
   text-decoration: none;
   color: aliceblue;
   transition: all ease 0.25s; }
-  nav a :hover {
+  nav a:hover {
     color: white;
     border-bottom-color: aliceblue; }
 
@@ -337,9 +337,9 @@ li {
       transition: all 0.25s ease;
       /* Propiedades a animar | Tiempo | Tipo animación*/
       transform-origin: 0px 100%; }
-      #menu_on span :nth-child(2) {
+      #menu_on span:nth-child(2) {
         top: calc(50% - 2px); }
-      #menu_on span :nth-child(3) {
+      #menu_on span:nth-child(3) {
         bottom: 0; }
   nav {
     position: fixed;
@@ -362,7 +362,7 @@ li {
       color: aliceblue;
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       transition: all ease 0.25s; }
-      nav a :hover {
+      nav a:hover {
         color: white;
         border-bottom-color: aliceblue; }
   #menu_label {
@@ -403,7 +403,7 @@ li {
     list-style: none;
     font-family: 'Hind', sans-serif;
     color: aliceblue; }
-    li :hover {
+    li:hover {
       filter: brightness(110%);
       font-family: 'Hind', sans-serif; } }
 
@@ -417,7 +417,7 @@ li {
   background: #eee;
   display: flex;
   flex-direction: column; }
-  .submit :hover {
+  .submit:hover {
     background: #ddd; }
 
 #email {

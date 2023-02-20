@@ -18,7 +18,7 @@ nav a{
 	text-decoration: none;
 	color: aliceblue;
 	transition: all ease 0.25s;
-	:hover{
+	&:hover{
 		color: rgba(255,255,255,1);
 		border-bottom-color:aliceblue;
 	}
@@ -61,10 +61,10 @@ li{
 		background: #fff;
 		transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
 		transform-origin : 0px 100%;
-		:nth-child(2){
+		&:nth-child(2){
 			top: calc(50% - 2px);
 		}
-		:nth-child(3){
+		&:nth-child(3){
 			bottom: 0;
 		}
 		}
@@ -90,11 +90,11 @@ li{
 		color: aliceblue;
 		border-bottom: 1px solid rgba(255,255,255,0.2);
 		transition: all ease 0.25s;
-	  :hover{
-		  color: rgba(255,255,255,1);
-		  border-bottom-color:aliceblue;
-	  }
-	}
+	 		 &:hover{
+		  		color: rgba(255,255,255,1);
+		  		border-bottom-color:aliceblue;
+	 		 }
+		}
   	}
 	#menu_label{
 	width: 30px;
@@ -147,7 +147,7 @@ li{
 		list-style: none;
 		font-family: 'Hind', sans-serif;
 	    color: aliceblue;
-		:hover {
+		&:hover {
 			filter: brightness(110%);
 			font-family: 'Hind', sans-serif;
 		}

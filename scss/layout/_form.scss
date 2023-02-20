@@ -8,7 +8,7 @@
 	background: #eee;
 	display: flex;
 	flex-direction: column;
-    :hover {
+    &:hover {
         background: #ddd;
     }
 }
