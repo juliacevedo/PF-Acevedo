@@ -321,6 +321,8 @@ li {
     display: flex;
     flex-direction: row;
     position: absolute; }
+  body.disabledScroll {
+    overflow: hidden; }
   #menu_on {
     display: inline-block;
     width: 30px;
@@ -363,6 +365,7 @@ li {
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       transition: all ease 0.25s; }
       nav a:hover {
+        cursor: pointer;
         color: white;
         border-bottom-color: aliceblue; }
   #menu_label {
@@ -381,11 +384,13 @@ li {
     left: 0;
     opacity: 100%; }
   .visible_menu#content {
+    cursor: pointer;
     transform: translateX(260px); }
   .semivisible_menu nav {
     left: 0;
     opacity: 20%; }
   .semivisible_menu#content {
+    cursor: pointer;
     transform: translateX(50px); }
   input:checked ~ label {
     background: #001b7a; }
@@ -404,6 +409,7 @@ li {
     font-family: 'Hind', sans-serif;
     color: aliceblue; }
     li:hover {
+      cursor: pointer;
       filter: brightness(110%);
       font-family: 'Hind', sans-serif; } }
 
