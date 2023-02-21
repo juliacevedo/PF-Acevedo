@@ -234,7 +234,7 @@ iframe {
   .gallery:hover {
     width: 95%; }
   .gallery img {
-    width: 100%;
+    width: 600px;
     height: auto; }
 
 @media screen and (max-width: 820px) {
