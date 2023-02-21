@@ -483,6 +483,7 @@ li {
   margin-left: 0.25%; }
 
 #enviar2 {
+  margin-left: 1%;
   padding: 1%;
   font-family: 'Hind', sans-serif;
   font-weight: 700;
@@ -494,25 +495,25 @@ li {
 .choose {
   display: inline-flex;
   flex-direction: row;
-  margin-top: 2%; }
+  margin-top: 1%; }
 
 .options {
   margin-top: 6%;
   margin-left: 2%;
-  margin-bottom: 6%; }
+  margin-bottom: 10%; }
 
 .optionsb {
   margin-top: 5%;
   margin-left: 2%;
-  margin-bottom: 6%; }
+  margin-bottom: 10%; }
 
 #textspace {
-  margin-top: 2%;
+  margin-top: 1%;
   width: 100%;
   height: fit-content; }
 
 #desplegable {
-  margin-top: 2%;
+  margin-top: 1%;
   width: 100%; }
 
 #logo_footer {
