@@ -220,7 +220,7 @@ span {
 iframe {
   max-width: 90%;
   min-width: 80%;
-  height: fit-content; }
+  height: auto; }
 
 .gallery {
   display: flex;
