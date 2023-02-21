@@ -65,6 +65,12 @@ h1 {
   padding: 0.6%;
   padding-left: 1%; }
 
+h2 {
+  font-family: 'EB Garamond', serif;
+  font: 700;
+  font-size: xx-large;
+  margin-top: 10%; }
+
 h3 {
   font-weight: bold;
   font-size: x-large; }
@@ -161,6 +167,17 @@ h6 {
   display: table;
   content: ""; }
 
+.row-md {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle; }
+
+.column-md {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
 .margin-one {
   margin: 1.5%;
   color: aliceblue; }
@@ -172,16 +189,10 @@ h6 {
 .margin-bottom {
   margin-bottom: 8%; }
 
-.column-md {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around; }
-
-.row-md {
-  display: flex;
-  flex-direction: row;
-  vertical-align: middle; }
+div span {
+  margin-top: 5%;
+  margin-left: 43%;
+  margin-bottom: 2%; }
 
 span {
   display: flex;

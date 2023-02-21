@@ -5,6 +5,17 @@
 	display: table;
 	content: "";
 }
+.row-md{
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+}
+.column-md{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
 .margin-one{
 	margin: 1.5%;
 	color: aliceblue;
@@ -16,16 +27,10 @@
 .margin-bottom{
 	margin-bottom: 8%;
 }
-.column-md{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-around;
-}
-.row-md{
-	display: flex;
-	flex-direction: row;
-	vertical-align: middle;
+div span{
+	margin-top: 5%;
+	margin-left: 43%;
+	margin-bottom: 2%;
 }
 span{
 	display: flex;
