@@ -219,7 +219,7 @@ span {
 
 .gallery {
   margin: 5px;
-  width: 180px; }
+  width: 90%; }
   .gallery:hover {
     width: 200px; }
   .gallery img {
