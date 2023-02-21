@@ -76,7 +76,7 @@ h3 {
   font-size: x-large; }
 
 h4 {
-  font-weight: bold;
+  font-weight: normal;
   font-size: large; }
 
 h6 {
@@ -476,7 +476,7 @@ li {
 
 #email2 {
   margin-top: 1%;
-  width: 60%;
+  width: 100%;
   margin-left: 0.25%; }
 
 #enviar2 {
@@ -507,7 +507,7 @@ li {
 
 #textspace {
   margin-top: 6%;
-  width: 150%;
+  width: 100%;
   height: fit-content;
   margin-left: 2%; }
 
