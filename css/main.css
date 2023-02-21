@@ -180,6 +180,11 @@ h6 {
   display: table;
   content: ""; }
 
+.row-header {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle; }
+
 .row-md {
   display: flex;
   flex-direction: row;
@@ -223,12 +228,10 @@ iframe {
   min-width: 80%;
   height: auto; }
 
-.gallery {
-  margin: 5px; }
-  .gallery img {
-    max-width: 400px;
-    min-width: 200px;
-    height: auto; }
+.gallery img {
+  max-width: 400px;
+  min-width: 200px;
+  height: auto; }
 
 @media only screen and (max-width: 820px) {
   body .mobile {

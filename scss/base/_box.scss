@@ -8,6 +8,11 @@
 	display: table;
 	content: "";
 }
+.row-header{
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+}
 .row-md{
 	display: flex;
 	flex-direction: row;
@@ -56,7 +61,6 @@ $max-img-width: 400px;
 $min-img-width: 200px;
 
 .gallery {
-	margin: 5px;
 	img {
 		max-width: $max-img-width;
 		min-width: $min-img-width;
