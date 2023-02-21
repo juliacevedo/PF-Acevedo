@@ -180,6 +180,17 @@ h6 {
   display: table;
   content: ""; }
 
+.row-md {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle; }
+
+.column-md {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
 .space-around {
   display: inherit;
   justify-content: space-around; }

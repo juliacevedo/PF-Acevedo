@@ -23,18 +23,6 @@ body{
             }
         }
     } @else {
-        @media only screen and (min-width: 820px){
-            .row-md{
-                display: flex;
-                flex-direction: row;
-                vertical-align: middle;
-            }
-            .column-md{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: space-around;
-            }
-        }
+        @media only screen and (min-width: 820px){}
     }
 }
