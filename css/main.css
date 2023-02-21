@@ -173,6 +173,9 @@ h6 {
 .container-fluid {
   width: 100%; }
 
+.container-90 {
+  width: 80%; }
+
 .row {
   display: table;
   content: ""; }
