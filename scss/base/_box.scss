@@ -54,13 +54,6 @@ iframe {
 	height: auto;
 }
 .gallery {
-	display: flex;
-		flex-direction: row;
-		align-self: center;
-		align-content: center;
-		align-items: center;
-		vertical-align: middle;
-		justify-content: space-around;
 	margin: 5px;
 	img {
 		width: $max-img-width;
