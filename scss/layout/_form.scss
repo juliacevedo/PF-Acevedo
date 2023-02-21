@@ -29,3 +29,45 @@
 	border-radius: 3%;
 	border-style: hidden;
 }
+#email2{
+	margin-top: 1%;
+	width: 60%;
+	margin-left: 0.25%;
+}
+#enviar2{
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: 'Hind', sans-serif;
+	  font-weight: 700;
+	  color:rgba(0, 27, 122, 1);
+	background-color: aliceblue; 
+	border-radius: 5%;
+	border-style: hidden;
+}
+.choose{
+	display:inline-flex;
+	flex-direction: row;
+	margin-top: -1%;
+}
+.options{
+	margin-top: 6%;
+	margin-left: 2%;
+	margin-bottom: 6%;
+  }
+.optionsb{
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 6%;
+}
+#textspace{
+	margin-top: 6%;
+	width: 150%;
+	height:fit-content;
+	margin-left: 2%;
+}
+#desplegable{
+	margin-top: 6%;
+	width: 100%;
+	margin-left: 2%;
+}
