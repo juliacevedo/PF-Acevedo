@@ -223,7 +223,7 @@ span {
   align-items: center;
   justify-content: space-around;
   margin: 5px;
-  width: 90%; }
+  width: max-content; }
   .gallery:hover {
     width: 95%; }
   .gallery img {

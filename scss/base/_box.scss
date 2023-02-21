@@ -51,7 +51,7 @@ span{
 		align-items: center;
 		justify-content: space-around;
 	margin: 5px;
-	width: 90%;
+	width: max-content;
 	&:hover {
 		width: 95%;
 	}
