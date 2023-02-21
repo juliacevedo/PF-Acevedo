@@ -217,9 +217,6 @@ span {
   align-items: center;
   justify-content: space-around; }
 
-* {
-  box-sizing: border-box; }
-
 iframe {
   max-width: 90%;
   min-width: 80%;
@@ -228,14 +225,14 @@ iframe {
 .gallery {
   display: flex;
   flex-direction: row;
+  align-self: center;
+  align-content: center;
   align-items: center;
+  vertical-align: middle;
   justify-content: space-around;
-  margin: 5px;
-  width: 90%; }
-  .gallery:hover {
-    width: 95%; }
+  margin: 5px; }
   .gallery img {
-    width: 600px;
+    width: 400px;
     height: auto; }
 
 @media screen and (max-width: 820px) {
@@ -247,6 +244,11 @@ iframe {
   .row-mb {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around; }
+  .column-mb {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around; } }
 

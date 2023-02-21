@@ -46,6 +46,8 @@ span{
 		justify-content: space-around;
 }
 
+$max-img-width: 400px;
+
 iframe {
 	max-width: 90%;
 	min-width: 80%;
@@ -55,14 +57,11 @@ iframe {
 	display: flex;
 		flex-direction: row;
 		align-self: center;
-		vertical-align: middle;
+		align-content: center;
 		align-items: center;
+		vertical-align: middle;
 		justify-content: space-around;
 	margin: 5px;
-	width: 90%;
-	&:hover {
-		width: 95%;
-	}
 	img {
 		width: $max-img-width;
 		height: auto;
@@ -78,6 +77,12 @@ iframe {
 	.row-mb{
 		display: flex;
 		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.column-mb{
+		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
 	}
