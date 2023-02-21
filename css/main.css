@@ -218,10 +218,14 @@ span {
   justify-content: space-around; }
 
 .gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   margin: 5px;
   width: 90%; }
   .gallery:hover {
-    width: 200px; }
+    width: 95%; }
   .gallery img {
     width: 100%;
     height: auto; }
