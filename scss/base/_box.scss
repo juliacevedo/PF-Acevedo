@@ -63,9 +63,8 @@ img {
 	  margin: 10px auto;
 	  max-width: $max-img-width;
 	  position: relative;
-	  padding-top: $max-img-height/$max-img-width * 100%;
-	  
-	@media screen and (min-width: $max-img-width){
+	  padding-top: $max-img-height/$max-img-width * 100%;  
+	@media screen and (min-width: 991px){
 		padding-top: $max-img-height;
 	}
 	&__img {

@@ -230,7 +230,7 @@ img {
   max-width: 600px;
   position: relative;
   padding-top: 66.66667%; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 991px) {
     .gallery {
       padding-top: 400px; } }
   .gallery__img {
