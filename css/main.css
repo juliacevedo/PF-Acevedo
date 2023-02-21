@@ -221,8 +221,9 @@ span {
   box-sizing: border-box; }
 
 iframe {
-  max-width: 100%;
-  vertical-align: top; }
+  max-width: 90%;
+  min-width: 80%;
+  height: fit-content; }
 
 .gallery {
   display: flex;
