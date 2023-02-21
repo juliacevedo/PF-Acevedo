@@ -204,7 +204,6 @@ h6 {
 
 div span {
   margin-top: 5%;
-  margin-left: 43%;
   margin-bottom: 2%; }
 
 span {
@@ -483,7 +482,7 @@ li {
   margin-left: 0.25%; }
 
 #enviar2 {
-  margin-left: 0.5%;
+  margin-bottom: 2%;
   padding: 1%;
   font-family: 'Hind', sans-serif;
   font-weight: 700;
@@ -499,12 +498,10 @@ li {
 
 .options {
   margin-top: 6%;
-  margin-left: 5%;
   margin-bottom: 15%; }
 
 .optionsb {
-  margin-top: 5%;
-  margin-left: 5%;
+  margin: 5%;
   margin-bottom: 15%; }
 
 #textspace {
