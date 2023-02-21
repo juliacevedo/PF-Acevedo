@@ -45,6 +45,20 @@ span{
 		align-items: center;
 		justify-content: space-around;
 }
+.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+	&:hover {
+		border: 1px solid #777;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
 @media screen and (max-width: 820px){
 	.mobile{
 		display: flex;
