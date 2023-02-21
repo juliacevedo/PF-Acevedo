@@ -47,11 +47,9 @@ span{
 }
 .gallery {
 	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
 	width: 180px;
 	&:hover {
-		border: 1px solid #777;
+		width: 200px;
 	}
 	img {
 		width: 100%;
