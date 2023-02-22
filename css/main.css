@@ -593,18 +593,12 @@ li {
   .visible_menu#content {
     cursor: pointer;
     transform: translateX(260px); }
-  .semivisible_menu nav {
-    left: 0;
-    opacity: 20%; }
-  .semivisible_menu#content {
-    cursor: pointer;
-    transform: translateX(50px); }
   input:checked ~ label {
     background: #001b7a; }
   ul {
     margin-top: 0;
     padding: 0;
-    width: 100%px;
+    width: 100%;
     display: flex;
     flex-direction: column; }
   li {
