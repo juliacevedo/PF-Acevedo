@@ -2,7 +2,7 @@ $vista:mobile;
 
 body{
     @if $vista == mobile{
-        @media only screen and (max-width: 936px){
+        @media only screen and (max-width: 820px){
             .mobile{
                 display: flex;
                 flex-direction: column;
@@ -23,6 +23,6 @@ body{
             }
         }
     } @else {
-        @media only screen and (min-width: 936px){}
+        @media only screen and (min-width: 820px){}
     }
 }
