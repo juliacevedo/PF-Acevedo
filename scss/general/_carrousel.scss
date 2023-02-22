@@ -32,7 +32,8 @@ section {
 .carousel {
     display: block;
     text-align: left;
-    position: relative;
+    position: absolute;
+    z-index: -2;
     margin-bottom: 22px;
       
     input {
@@ -74,7 +75,6 @@ section {
   
 .carousel__slide {
     position: relative;
-    z-index: -2;
     display: block;
     flex: 1 0 100%;
     width: 100%;
