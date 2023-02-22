@@ -32,6 +32,9 @@ section {
 .carousel {
     display: block;
     text-align: left;
+    font-family: 'EB Garamond', serif;
+		text-decoration: none;
+		color: aliceblue;
     position: relative;
     margin-bottom: 22px;
       
@@ -103,9 +106,6 @@ section {
         flex: 0 0 auto;
         width: 25%;
         min-width: 150px;
-        font-family: 'EB Garamond', serif;
-		text-decoration: none;
-		color: aliceblue;
     }
     &.scrollable {
         overflow-y: scroll;

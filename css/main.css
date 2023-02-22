@@ -83,11 +83,6 @@ h6 {
   font-family: 'EB Garamond', serif;
   color: aliceblue; }
 
-a {
-  font-family: 'EB Garamond', serif;
-  text-decoration: none;
-  color: aliceblue; }
-
 .container-fluid {
   width: 100%; }
 
@@ -268,6 +263,9 @@ section {
 .carousel {
   display: block;
   text-align: left;
+  font-family: 'EB Garamond', serif;
+  text-decoration: none;
+  color: aliceblue;
   position: relative;
   margin-bottom: 22px; }
   .carousel input {
@@ -352,10 +350,7 @@ section {
     padding: 20px 20px 0 20px;
     flex: 0 0 auto;
     width: 25%;
-    min-width: 150px;
-    font-family: 'EB Garamond', serif;
-    text-decoration: none;
-    color: aliceblue; }
+    min-width: 150px; }
   .carousel__slide.scrollable {
     overflow-y: scroll; }
 
