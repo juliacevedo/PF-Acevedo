@@ -269,7 +269,7 @@ section {
 .carousel {
   display: block;
   text-align: left;
-  position: absolute;
+  position: relative;
   z-index: 100;
   margin-bottom: 22px; }
   .carousel input {
