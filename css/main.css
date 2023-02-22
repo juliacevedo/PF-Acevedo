@@ -77,9 +77,11 @@ h3 {
 
 h4 {
   font-weight: normal;
-  font-size: large;
-  font-family: 'EB Garamond', serif;
-  text-decoration: none;
+  font-size: large; }
+
+h5 {
+  font-weight: normal;
+  font-size: x-large;
   color: aliceblue; }
 
 h6 {
