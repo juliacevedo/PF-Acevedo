@@ -1,14 +1,3 @@
-const button= document.getElementById('button-menu')
-const navclose = document.getElementById('nav')
-
-button.addEventListener('click',() => {
-  button.classList.toggle('close')
-  navclose.classList.toggle('visible_menu')
-})
-
-navclose.addEventListener('click',e => {
-  if(e.target.id === 'nav'){
-    navclose.classList.remove('visible_menu')
-    toggleButton.classList.remove('close')
-  }
-})
+document.getElementById('menu_on').addEventListener('click', ()=>{
+    Document.getElementById('body').classList.toggle('visible_menu');
+});
