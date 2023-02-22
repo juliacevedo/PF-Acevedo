@@ -1,11 +1,14 @@
-@import 'base/reset';
+@import 'general/reset';
 
 /* BASE */
 @import 'base/color';
 @import 'base/font';
-@import 'base/style';
 @import 'base/box';
-@import 'base/variables';
+
+/* GENERAL */
+@import 'general/style';
+@import 'general/variables';
+@import 'general/mixin';
 
 /* LAYOUTS */
 @import 'layout/header';
@@ -13,6 +16,6 @@
 @import 'layout/footer';
 
 /* GRID SYSTEM */
-@import './grid/variables';
-@import './grid/mixins';
-@import './grid/grid';
+@import 'grid/variables';
+@import 'grid/mixins';
+@import 'grid/grid';
