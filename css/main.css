@@ -601,7 +601,7 @@ li {
     flex-direction: column; }
   li {
     display: block;
-    background: #001b7a;
+    background: inherit;
     margin: 0;
     padding: 10px;
     list-style: none;
