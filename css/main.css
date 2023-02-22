@@ -271,7 +271,7 @@ section {
   display: block;
   text-align: left;
   position: relative;
-  z-index: -2;
+  z-index: 1;
   margin-bottom: 22px; }
   .carousel input {
     clip: rect(1px, 1px, 1px, 1px);
