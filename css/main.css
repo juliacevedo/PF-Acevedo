@@ -271,8 +271,7 @@ section {
   display: block;
   text-align: left;
   position: relative;
-  margin-bottom: 22px;
-  z-index: -2; }
+  margin-bottom: 22px; }
   .carousel input {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -319,6 +318,7 @@ section {
 
 .carousel__slide {
   position: relative;
+  z-index: -2;
   display: block;
   flex: 1 0 100%;
   width: 100%;
