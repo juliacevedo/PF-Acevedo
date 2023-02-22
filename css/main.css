@@ -593,8 +593,6 @@ li {
   .visible_menu#content {
     cursor: pointer;
     transform: translateX(260px); }
-  input:checked ~ label {
-    background: #001b7a; }
   ul {
     margin-top: 0;
     padding: 0;
