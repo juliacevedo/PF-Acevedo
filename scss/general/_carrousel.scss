@@ -21,7 +21,6 @@
 // Styling
   
 section {
-    background: #F4F4F4;
     padding: 50px 0;
 } 
 .container {
@@ -32,7 +31,8 @@ section {
 .carousel {
     display: block;
     text-align: left;
-    position: relative;
+    position: absolute;
+    z-index: 100;
     margin-bottom: 22px;
       
     input {
