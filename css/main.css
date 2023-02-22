@@ -524,7 +524,8 @@ li {
   header {
     background-color: #2b2b2b;
     min-height: 40px;
-    max-height: 40px; }
+    max-height: 40px;
+    z-index: 999; }
   #header {
     display: flex;
     flex-direction: row;
