@@ -589,7 +589,7 @@ li {
   .visible_menu nav {
     left: 0;
     opacity: 100%; }
-  .visible_menu li {
+  .visible_menu span {
     opacity: 100%; }
   .visible_menu#content {
     cursor: pointer;
