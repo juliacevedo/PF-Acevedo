@@ -587,6 +587,7 @@ li {
     margin: 15%;
     position: relative; }
   .visible_menu nav {
+    background-color: white;
     left: 0;
     opacity: 1; }
   .visible_menu#content {
