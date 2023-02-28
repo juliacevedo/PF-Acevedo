@@ -96,6 +96,7 @@ li{
 		transition: all ease 0.25s;
 	 		 &:hover{
 				cursor: pointer;
+				opacity: 100%;
 		  		color: rgba(255,255,255,1);
 		  		border-bottom-color:aliceblue;
 	 		 }
