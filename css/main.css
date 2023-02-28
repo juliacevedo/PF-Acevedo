@@ -571,7 +571,6 @@ li {
       transition: all ease 0.25s; }
       nav a:hover {
         cursor: pointer;
-        opacity: 100%;
         color: white;
         border-bottom-color: aliceblue; }
   #menu_label {
@@ -609,6 +608,7 @@ li {
     li:hover {
       cursor: pointer;
       filter: brightness(110%);
+      opacity: 100%;
       font-family: 'Hind', sans-serif; } }
 
 .submit {
