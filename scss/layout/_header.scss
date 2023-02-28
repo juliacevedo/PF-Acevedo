@@ -62,7 +62,7 @@ li{
 		border-radius: 4px;
 		display: block;
 		position: absolute;
-		background: #fff;
+		background: #ffffff;
 		transition: all 0.25s ease; /* Propiedades a animar | Tiempo | Tipo animación*/
 		transform-origin : 0px 100%;
 			&:nth-child(2){
@@ -119,10 +119,7 @@ li{
   	.visible_menu {
 		nav{
 			left: 0;
-			opacity: 100%;
-		}
-		ul{
-			opacity: 100%;
+			opacity: 1;
 		}
 		&#content{
 			cursor: pointer;
