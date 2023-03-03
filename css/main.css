@@ -44,6 +44,8 @@ body {
   .notblue div {
     padding: 2%;
     flex: 1.5; }
+  .notblue nav {
+    background-color: #2b2b2b; }
 
 .lightblue {
   background-color: #0024a5;
