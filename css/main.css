@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET*/
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hind&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Hind&display=swap");
@@ -537,6 +538,21 @@ li {
     height: 20px;
     position: relative;
     z-index: 2; }
+    #menu_on span {
+      width: 100%;
+      height: 4px;
+      border-radius: 4px;
+      display: block;
+      position: absolute;
+      background: #ffffff;
+      opacity: 100%;
+      transition: all 0.25s ease;
+      /* Propiedades a animar | Tiempo | Tipo animación*/
+      transform-origin: 0px 100%; }
+      #menu_on span:nth-child(2) {
+        top: calc(50% - 2px); }
+      #menu_on span:nth-child(3) {
+        bottom: 0; }
   nav {
     position: fixed;
     top: 0;
