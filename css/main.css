@@ -542,6 +542,7 @@ li {
       display: block;
       position: absolute;
       background: #ffffff;
+      opacity: 100%;
       transition: all 0.25s ease;
       /* Propiedades a animar | Tiempo | Tipo animación*/
       transform-origin: 0px 100%; }
@@ -587,9 +588,8 @@ li {
     margin: 15%;
     position: relative; }
   .visible_menu nav {
-    background-color: white;
     left: 0;
-    opacity: 1; }
+    opacity: 100%; }
   .visible_menu#content {
     cursor: pointer;
     transform: translateX(260px); }
