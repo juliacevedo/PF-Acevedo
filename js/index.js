@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('menu_on').addEventListener('click', ()=>{
-        var elementos = document.querySelectorAll('nav'); 
-        elementos.forEach(function(e) {
+        var elemento = document.querySelectorAll('nav'); 
+        elemento.forEach(function(e) {
             e.classList.toogle('color')  
     })})
 });
