@@ -14,10 +14,7 @@ header{
 	flex-direction: row;
     position: absolute;
 }
-nav{
-	margin-top: 0%;
-	padding-top: 0%;
-	a{
+nav a{
 	text-decoration: none;
 	color: aliceblue;
 	transition: all ease 0.25s;
@@ -25,7 +22,6 @@ nav{
 			color: rgba(255,255,255,1);
 			border-bottom-color:aliceblue;
 		}
-} 
 }
 li{
 	margin-top: 1.5%;

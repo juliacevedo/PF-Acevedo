@@ -498,16 +498,13 @@ header {
   flex-direction: row;
   position: absolute; }
 
-nav {
-  margin-top: 0%;
-  padding-top: 0%; }
-  nav a {
-    text-decoration: none;
-    color: aliceblue;
-    transition: all ease 0.25s; }
-    nav a:hover {
-      color: white;
-      border-bottom-color: aliceblue; }
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: all ease 0.25s; }
+  nav a:hover {
+    color: white;
+    border-bottom-color: aliceblue; }
 
 li {
   margin-top: 1.5%;
