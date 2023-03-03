@@ -579,6 +579,8 @@ li {
   .visible_menu#content {
     cursor: pointer;
     transform: translateX(260px); }
+  .color {
+    background-color: #2b2b2b; }
   ul {
     margin-top: 0;
     padding: 0;
