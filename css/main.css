@@ -543,7 +543,6 @@ li {
       border-radius: 4px;
       display: block;
       position: absolute;
-      background: #ffffff;
       opacity: 100%;
       transition: all 0.25s ease;
       /* Propiedades a animar | Tiempo | Tipo animación*/
