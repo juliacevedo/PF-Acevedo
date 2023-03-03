@@ -14,14 +14,17 @@ header{
 	flex-direction: row;
     position: absolute;
 }
-nav a{
+nav{
+	padding-top: 0%;
+	a{
 	text-decoration: none;
 	color: aliceblue;
 	transition: all ease 0.25s;
-	&:hover{
-		color: rgba(255,255,255,1);
-		border-bottom-color:aliceblue;
-	}
+		&:hover{
+			color: rgba(255,255,255,1);
+			border-bottom-color:aliceblue;
+		}
+} 
 }
 li{
 	margin-top: 1.5%;
@@ -81,7 +84,7 @@ li{
 	  left:-300px; 
 	  width: 300px;
 	  z-index: 1;
-	  padding-top: 43px;
+	  padding-top: 5%;
 	  background: rgba(255,255,255,0.2);
 	  opacity: 0;
 	  transition: all 0.75s ease;

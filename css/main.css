@@ -501,13 +501,15 @@ header {
   flex-direction: row;
   position: absolute; }
 
-nav a {
-  text-decoration: none;
-  color: aliceblue;
-  transition: all ease 0.25s; }
-  nav a:hover {
-    color: white;
-    border-bottom-color: aliceblue; }
+nav {
+  padding-top: 0%; }
+  nav a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all ease 0.25s; }
+    nav a:hover {
+      color: white;
+      border-bottom-color: aliceblue; }
 
 li {
   margin-top: 1.5%;
@@ -560,7 +562,7 @@ li {
     left: -300px;
     width: 300px;
     z-index: 1;
-    padding-top: 43px;
+    padding-top: 5%;
     background: rgba(255, 255, 255, 0.2);
     opacity: 0;
     transition: all 0.75s ease;
