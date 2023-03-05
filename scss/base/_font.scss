@@ -18,7 +18,14 @@ h4{
 h5{
 	font-weight:normal;
 	font-size: x-large;
-		color: rgba(0, 27, 122, 1);
+		color: rgb(136, 144, 255);
+	&:hover{
+		font-size: xx-large;
+		color: rgb(255, 255, 255);
+	}
+}
+.blue{
+	color: rgba(0, 27, 122, 1);
 	&:hover{
 		font-size: xx-large;
 		color: rgb(5, 1, 39);

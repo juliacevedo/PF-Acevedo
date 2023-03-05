@@ -73,8 +73,14 @@ h4 {
 h5 {
   font-weight: normal;
   font-size: x-large;
-  color: #001b7a; }
+  color: #8890ff; }
   h5:hover {
+    font-size: xx-large;
+    color: white; }
+
+.blue {
+  color: #001b7a; }
+  .blue:hover {
     font-size: xx-large;
     color: #050127; }
 
