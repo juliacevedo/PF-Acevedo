@@ -259,17 +259,25 @@ iframe {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.301);
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none; }
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); }
 
 .next {
   right: 0;
   border-radius: 3px 0 0 3px; }
+
+.text {
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 90%;
+  text-align: center; }
 
 .dot {
   cursor: pointer;
@@ -283,7 +291,7 @@ iframe {
   .dot:hover {
     background-color: #717171; }
 
-.active:hover {
+.active {
   background-color: #717171; }
 
 .fade {
