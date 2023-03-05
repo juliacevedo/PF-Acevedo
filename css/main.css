@@ -275,9 +275,8 @@ iframe {
   border-radius: 3px 0 0 3px; }
 
 .text {
-  padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 15px;
   width: 90%;
   text-align: center; }
 
