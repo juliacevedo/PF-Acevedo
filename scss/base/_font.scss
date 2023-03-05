@@ -18,8 +18,11 @@ h4{
 h5{
 	font-weight:normal;
 	font-size: x-large;
-	text-decoration: underline;
-		color: aliceblue;
+		color: rgba(0, 27, 122, 1);
+	&:hover{
+		font-size: xx-large;
+		color: rgb(5, 1, 39);
+	}
 }
 h6{
 	font-family: 'EB Garamond', serif;
