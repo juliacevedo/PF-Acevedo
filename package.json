@@ -9,6 +9,7 @@
   "author": "Lia",
   "license": "ISC",
   "dependencies": {
+    "@mantine/carousel": "^6.0.0",
     "abbrev": "^1.1.1",
     "agent-base": "^6.0.2",
     "agentkeepalive": "^4.2.1",
@@ -45,6 +46,7 @@
     "decamelize-keys": "^1.1.1",
     "delegates": "^1.0.0",
     "depd": "^1.1.2",
+    "embla-carousel-react": "^7.0.9",
     "emoji-regex": "^8.0.0",
     "encoding": "^0.1.13",
     "env-paths": "^2.2.1",
