@@ -29,26 +29,26 @@ $img-max-height:1.5vw;
     border-radius: 3px 0 0 3px;
 }
 .text {
-    position: absolute;
-    bottom: 15px;
-    width: 90%;
+    display: flex;
+    vertical-align: bottom;
+    margin-bottom: 2%;
     text-align: center;
 }
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
+    height: 7px;
+    width: 7px;
+    margin: 0 5px;
+    background-color: rgba(0, 27, 122, 1);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
     &:hover{
-        background-color: #717171;
+        background-color: #ffffff;
     }
 }
 .active {
-    background-color: #717171;
+    background-color: #ffffff;
 }
 .fade {
     animation-name: fade;
