@@ -249,7 +249,8 @@ iframe {
 .slideshow-container {
   max-width: 90%;
   position: relative;
-  margin: auto; }
+  margin: auto;
+  margin-bottom: 7%; }
 
 .mySlides {
   display: none; }
