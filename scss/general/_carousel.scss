@@ -1,3 +1,5 @@
+$img-max-widht: 450px;
+
 .slideshow-container {
     max-width: 90%;
     max-height: 450px;
@@ -30,6 +32,7 @@
 }
 .text {
     position: absolute;
+    text-align: center;
     bottom: 2%;
     margin-bottom: 2%;
 }

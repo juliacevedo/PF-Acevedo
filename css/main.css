@@ -76,8 +76,9 @@ h5 {
   text-decoration: none;
   color: #8890ff; }
   h5:hover {
-    font-size: xx-large;
-    color: white; }
+    font-size: x-large;
+    color: #e3eafd;
+    text-decoration: none; }
 
 .blue {
   color: #001b7a; }
@@ -285,6 +286,7 @@ iframe {
 
 .text {
   position: absolute;
+  text-align: center;
   bottom: 2%;
   margin-bottom: 2%; }
 
