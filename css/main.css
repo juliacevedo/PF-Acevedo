@@ -264,6 +264,8 @@ iframe {
 
 .mySlides {
   display: none; }
+  .mySlides img {
+    object-fit: cover; }
 
 .prev, .next {
   cursor: pointer;
@@ -286,6 +288,8 @@ iframe {
 
 .text {
   position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
   bottom: 2%;
   margin-bottom: 2%; }

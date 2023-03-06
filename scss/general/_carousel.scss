@@ -10,6 +10,9 @@ $img-max-widht: 450px;
 }  
 .mySlides {
     display: none;
+    img{
+        object-fit: cover;
+    }
 }  
 .prev, .next {
     cursor: pointer;
@@ -32,6 +35,8 @@ $img-max-widht: 450px;
 }
 .text {
     position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align: center;
     bottom: 2%;
     margin-bottom: 2%;
