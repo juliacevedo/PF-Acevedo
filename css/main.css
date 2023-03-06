@@ -264,10 +264,11 @@ iframe {
 
 .mySlides {
   display: none; }
-  .mySlides img {
-    max-width: 90%;
-    max-height: 450px;
-    object-fit: cover; }
+
+img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover; }
 
 .prev, .next {
   cursor: pointer;
