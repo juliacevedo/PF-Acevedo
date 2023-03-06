@@ -263,7 +263,8 @@ iframe {
   align-items: center; }
 
 .mySlides {
-  display: none; }
+  display: none;
+  max-height: 450px; }
 
 img {
   object-fit: cover; }
