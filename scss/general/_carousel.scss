@@ -8,10 +8,11 @@
 }  
 .mySlides {
     display: none;
-    max-height: 450px;
+    height: 450px;
 }  
 img{
     object-fit: cover;
+    height: inherit;
 }
 .prev, .next {
     cursor: pointer;
@@ -37,6 +38,7 @@ img{
     display: flex;
     align-self: center;
     text-align: center;
+    text-decoration: none;
     bottom: 2%;
     margin-bottom: 2%;
 }
