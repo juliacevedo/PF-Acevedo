@@ -1,6 +1,4 @@
 .slideshow-container {
-    display: flex;
-    flex-shrink: 1;
     max-width: 90%;
     max-height: 450px;
     position: relative;
@@ -14,10 +12,12 @@
         height: auto;
         display: flex;
         flex-shrink: 1;
+        width: 100%;
     }
 }  
 img{
     object-fit: cover;
+    width: 100%;
 }
 .prev, .next {
     cursor: pointer;

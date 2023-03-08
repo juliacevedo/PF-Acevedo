@@ -254,8 +254,6 @@ iframe {
     margin-left: 2%; } }
 
 .slideshow-container {
-  display: flex;
-  flex-shrink: 1;
   max-width: 90%;
   max-height: 450px;
   position: relative;
@@ -268,10 +266,12 @@ iframe {
   .mySlides img {
     height: auto;
     display: flex;
-    flex-shrink: 1; }
+    flex-shrink: 1;
+    width: 100%; }
 
 img {
-  object-fit: cover; }
+  object-fit: cover;
+  width: 100%; }
 
 .prev, .next {
   cursor: pointer;
