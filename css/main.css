@@ -263,10 +263,11 @@ iframe {
 .mySlides {
   display: none;
   height: 450px; }
+  .mySlides img {
+    height: auto; }
 
 img {
-  object-fit: cover;
-  height: inherit; }
+  object-fit: cover; }
 
 .prev, .next {
   cursor: pointer;

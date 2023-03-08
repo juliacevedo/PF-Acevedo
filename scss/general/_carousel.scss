@@ -9,10 +9,12 @@
 .mySlides {
     display: none;
     height: 450px;
+    img{
+        height: auto;
+    }
 }  
 img{
     object-fit: cover;
-    height: inherit;
 }
 .prev, .next {
     cursor: pointer;
