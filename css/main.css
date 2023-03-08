@@ -265,7 +265,9 @@ iframe {
 .mySlides {
   display: none; }
   .mySlides img {
-    height: auto; }
+    height: auto;
+    display: flex;
+    flex-shrink: 1; }
 
 img {
   object-fit: cover; }

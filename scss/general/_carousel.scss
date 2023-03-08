@@ -12,6 +12,8 @@
     display: none;
     img{
         height: auto;
+        display: flex;
+        flex-shrink: 1;
     }
 }  
 img{
