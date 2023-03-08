@@ -253,6 +253,8 @@ iframe {
     margin-left: 2%; } }
 
 .slideshow-container {
+  display: flex;
+  flex-shrink: 1;
   max-width: 90%;
   max-height: 450px;
   position: relative;
@@ -261,8 +263,7 @@ iframe {
   align-items: center; }
 
 .mySlides {
-  display: none;
-  height: 450px; }
+  display: none; }
   .mySlides img {
     height: auto; }
 

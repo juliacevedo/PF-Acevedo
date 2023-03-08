@@ -1,4 +1,6 @@
 .slideshow-container {
+    display: flex;
+    flex-shrink: 1;
     max-width: 90%;
     max-height: 450px;
     position: relative;
@@ -8,7 +10,6 @@
 }  
 .mySlides {
     display: none;
-    height: 450px;
     img{
         height: auto;
     }
