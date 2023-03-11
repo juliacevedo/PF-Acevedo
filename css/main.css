@@ -513,7 +513,7 @@ li {
     position: relative; }
   .visible_menu nav {
     left: 0;
-    opacity: 100%; }
+    opacity: 1; }
   .visible_menu#content {
     cursor: pointer;
     transform: translateX(260px); }
