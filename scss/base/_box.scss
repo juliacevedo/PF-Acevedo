@@ -69,7 +69,7 @@ $min-img-width: 100px;
 	}
 }
 
-@include respond-to('medium'){
+@include respond-to('med'){
 	.mobile{
 		display: flex;
 		flex-direction: column;

@@ -23,7 +23,7 @@ h5{
 		font-size: x-large;
 		color: rgb(227, 234, 253);
 	}
-	@include respond-to('medium') {
+	@include respond-to('med') {
 		font-size: large;
 		&:hover{
 			font-size: large;
