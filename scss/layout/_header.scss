@@ -102,14 +102,14 @@ li{
 	position: relative;
   	}
   	.visible_menu {
-		nav{
-			left: 0;
-			opacity: 1;
-		}
 		&#content{
 			cursor: pointer;
 			transform: translateX(260px);
   		}
+	}
+	.visible_nav{
+			left: 0;
+			opacity: 1;
 	}
   	ul{
 		margin-top:0;
