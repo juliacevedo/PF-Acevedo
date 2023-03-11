@@ -24,21 +24,21 @@ h5{
 		color: rgb(227, 234, 253);
 	}
 	@include respond-to('medium') {
-		font-weight:normal;
 		font-size: large;
-			color: rgb(136, 144, 255);
 		&:hover{
 			font-size: large;
-			color: rgb(227, 234, 253);
 		}
 	}
 	@include respond-to('small') {
-		font-weight:normal;
 		font-size: small;
-			color: rgb(136, 144, 255);
 		&:hover{
 			font-size: small;
-			color: rgb(227, 234, 253);
+		}
+	}
+	@include respond-to('x-small') {
+		font-size: x-small;
+		&:hover{
+			font-size: x-small;
 		}
 	}
 }
