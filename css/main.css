@@ -73,7 +73,6 @@ h4 {
 h5 {
   font-weight: normal;
   font-size: x-large;
-  text-decoration: none;
   color: #8890ff; }
   h5:hover {
     font-size: x-large;
@@ -88,6 +87,9 @@ h5 {
 h6 {
   font-family: 'EB Garamond', serif;
   color: aliceblue; }
+
+link {
+  text-decoration: none; }
 
 .container-fluid {
   width: 100%; }
@@ -293,7 +295,6 @@ img {
 .text {
   display: flex;
   align-self: center;
-  text-decoration: none;
   bottom: 2%;
   margin-bottom: 2%; }
 

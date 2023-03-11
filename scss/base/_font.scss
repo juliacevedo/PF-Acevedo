@@ -18,7 +18,6 @@ h4{
 h5{
 	font-weight:normal;
 	font-size: x-large;
-	text-decoration: none;
 		color: rgb(136, 144, 255);
 	&:hover{
 		font-size: x-large;
@@ -35,4 +34,7 @@ h5{
 h6{
 	font-family: 'EB Garamond', serif;
 		color: aliceblue;
+}
+link{
+	text-decoration: none;
 }
