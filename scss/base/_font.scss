@@ -22,20 +22,19 @@ h5{
 	&:hover{
 		font-size: x-large;
 		color: rgb(227, 234, 253);
-	}
-	@include media-breakpoint-down('md') {
+	}@include respond-to('med') {
 		font-size: large;
 		&:hover{
 			font-size: large;
 		}
 	}
-	@include media-breakpoint-down('sm') {
+	@include respond-to('small') {
 		font-size: small;
 		&:hover{
 			font-size: small;
 		}
 	}
-	@include media-breakpoint-down('xs') {
+	@include respond-to('x-small') {
 		font-size: x-small;
 		&:hover{
 			font-size: x-small;
