@@ -291,7 +291,6 @@ img {
   border-radius: 3px 0 0 3px; }
 
 .text {
-  position: absolute;
   display: flex;
   align-self: center;
   text-decoration: none;
