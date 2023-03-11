@@ -62,7 +62,7 @@ $min-img-width: 100px;
 	}
 }
 
-@include media-breakpoint-up('md'){
+@include media-breakpoint-down('md'){
 	.mobile{
 		display: flex;
 		flex-direction: column;

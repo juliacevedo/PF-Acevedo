@@ -35,7 +35,7 @@ li{
 	z-index: 2;
 }
 
-@include media-breakpoint-up('md'){
+@include media-breakpoint-down('md'){
 	header{
 		background-color: rgba(43, 43, 43, 1);
 	  	min-height: 40px;;
