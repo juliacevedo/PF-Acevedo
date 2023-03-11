@@ -42,21 +42,9 @@ li{
 	  	max-height: 40px;
 		  z-index: 999;
   	}
-  	#header{
-		display: flex;
-		flex-direction: row;
-	   	position: absolute;
- 	}
 	body.disabledScroll{
 		overflow: hidden;
 	}
- 	#menu_on{
-	  display: inline-block;
-	  width:30px;
-	  height: 20px;
-	  position: relative;
-	  z-index: 2;
- 	}
  	nav{
 	  position: fixed;
 	  top: 0;
@@ -110,9 +98,6 @@ li{
 			transform: translateX(260px);
   		}
 	}
-	input:checked ~ label {
-		background: rgba(0, 27, 122, 1); 
-	  }
   	ul{
 		margin-top:0;
 		padding: 0;
