@@ -10,10 +10,12 @@ h3{
 	font-weight: bold;
 	font-size: x-large;
 	margin-top: 1%;
+	color: aliceblue;
 }
 h4{
 	font-weight:normal;
 	font-size: large;
+	color: aliceblue;
 }
 h5{
 	font-weight:normal;
@@ -39,13 +41,6 @@ h5{
 		&:hover{
 			font-size: x-small;
 		}
-	}
-}
-.blue{
-	color: rgba(0, 27, 122, 1);
-	&:hover{
-		font-size: xx-large;
-		color: rgb(5, 1, 39);
 	}
 }
 h6{
