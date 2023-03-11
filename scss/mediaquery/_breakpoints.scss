@@ -7,10 +7,6 @@ $breakpoints: (
   'huge': (min-width: 1200px),
 );
 
-/// Gestor Responsive
-/// @access public
-/// @param {String} $breakpoint - Punto de ruptura
-/// @requires $breakpoints
 @mixin respond-to($breakpoint) {
   // If the key exists in the map
   @if map-has-key($breakpoints, $breakpoint) {
