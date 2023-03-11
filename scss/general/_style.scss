@@ -81,7 +81,7 @@
 	border-radius: .25rem;
 	color: #fff;
 }
-@include respond-to('med'){
+@include media-breakpoint-up('md'){
 	#LOGO{
 		width: 30px;
 		height: 30px;

@@ -1,12 +1,5 @@
-.container-fluid{
-	width: 100%;
-}
 .container-90{
 	width: 90%;
-}
-.row{
-	display: table;
-	content: "";
 }
 .row-header{
 	display: flex;
@@ -69,7 +62,7 @@ $min-img-width: 100px;
 	}
 }
 
-@include respond-to('med'){
+@include media-breakpoint-up('md'){
 	.mobile{
 		display: flex;
 		flex-direction: column;

@@ -44,7 +44,7 @@ img{
     text-decoration: none;
     bottom: 2%;
     margin-bottom: 2%;
-    @include respond-to('med'){
+    @include media-breakpoint-up('md'){
         margin: 1%;
         margin-bottom: 2%;
     }
