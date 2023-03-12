@@ -19,18 +19,14 @@
 }
 #enviar{
 	margin-top: 2%;
-	padding: 0.5%;
-	padding-left: 1.5%;
-	padding-right: 1.5%;
 	font-family: 'Hind', sans-serif;
 	  font-weight: 700;
 	  color:rgba(0, 27, 122, 1);
 	background-color: aliceblue; 
-	border-radius: 3%;
+	border-radius: 5%;
 	border-style: hidden;
 }
 #email2{
-	margin-top: 0.5%;
 	width: 100%;
 	margin-left: 0.25%;
 }
@@ -47,22 +43,19 @@
 .choose{
 	display:inline-flex;
 	flex-direction: row;
-	margin-top: 1%;
 }
 .options{
-	margin-top: 6%;
+	margin-top: 2%;
 	margin-bottom: 15%;
 }
 .optionsb{
-	margin: 5%;
+	margin: 1%;
 	margin-bottom: 15%;
 }
 #textspace{
-	margin-top: 0.5%;
 	width: 100%;
 	height: fit-content;
 }
 #desplegable{
-	margin-top: 0.5%;
 	width: 100%;
 }
