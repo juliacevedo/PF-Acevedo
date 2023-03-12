@@ -23,24 +23,16 @@ h5{
 		color: rgb(136, 144, 255);
 	&:hover{
 		font-size: x-large;
-		color: rgb(227, 234, 253);
-	}@include respond-to('med') {
+		color: rgb(227, 234, 253);}
+	@include respond-to('med'){
 		font-size: large;
-		&:hover{
-			font-size: large;
-		}
+	&:hover{
+		font-size: large;}
 	}
-	@include respond-to('small') {
+	@include respond-to('small'){
 		font-size: small;
-		&:hover{
-			font-size: small;
-		}
-	}
-	@include respond-to('x-small') {
-		font-size: x-small;
-		&:hover{
-			font-size: x-small;
-		}
+	&:hover{
+		font-size: small;}
 	}
 }
 h6{
