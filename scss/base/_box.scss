@@ -63,6 +63,11 @@ iframe {
 	width: 90%;
 	height: auto;
 }
+.w-100{
+	img{
+		max-height: 450px;
+	}
+}
 
 $max-img-width: 400px;
 $min-img-width: 100px;
