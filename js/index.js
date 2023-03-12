@@ -5,8 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
            e.classList.toggle('visible_menu')
     })})
 });
-document.addEventListener("DOMContentLoaded" , () => {
-  document.getElementById('myCarousel').addEventListener('click', ()=>{
-  $('#myCarousel').carousel('next')
-})  
-})
+
+$('#toggle').addClass('active');
+let toggle = document.querySelector('#toggle');
+toggle.classList.add('active');
+
+$( document ).ready(function(){
+  $('.carousel').carousel({
+    interval: 2000
+  })
+});
+document.addEventListener("DOMContentLoaded", function(event) {
+  let carousel = document.querySelector('.carousel')
+});
