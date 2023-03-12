@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
            e.classList.toggle('visible_menu')
     })})
 });
+
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".carousel-container").forEach((carousel) => {
     insertNumbers(carousel);
@@ -39,7 +40,6 @@ function insertNumbers(carousel) {
   for (let i = 0; i < length; i++) {
     const nmbr = document.createElement("div");
     nmbr.classList.add("numbertext");
-    nmbr.innerText = i + 1 + " / " + length;
 
     carousel.querySelectorAll(".item")[i].append(nmbr);
   }
