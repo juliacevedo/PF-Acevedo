@@ -5,57 +5,91 @@ document.addEventListener("DOMContentLoaded", () => {
            e.classList.toggle('visible_menu')
     })})
 });
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".carousel-container").forEach((carousel) => {
+    insertNumbers(carousel);
 
-$(".owl-carousel").on("initialized.owl.carousel", () => {
-  setTimeout(() => {
-    $(".owl-item.active .owl-slide-animated").addClass("is-transitioned");
-    $("section").show();
-  }, 200);
+    carousel.querySelector(".prev").addEventListener("click", (e) => {
+      minusItem(carousel);
+    });
+
+    carousel.querySelector(".next").addEventListener("click", () => {
+      plusItem(carousel);
+    });
+
+    insertDots(carousel);
+
+    carousel.querySelectorAll(".dot").forEach((dot) => {
+      dot.addEventListener("click", (e) => {
+        let item = Array.prototype.indexOf.call(
+          e.target.parentNode.children,
+          e.target
+        );
+
+        showItems(carousel, item);
+      });
+    });
+
+    showItems(carousel, 0);
+  });
 });
 
-const $owlCarousel = $(".owl-carousel").owlCarousel({
-  items: 1,
-  loop: true,
-  nav: true,
-  navText: [
-    '<svg width="50" height="50" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
-    '<svg width="50" height="50" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>' /* icons from https://iconmonstr.com */
-  ]
-});
+function insertNumbers(carousel) {
+  const length = carousel.querySelectorAll(".item").length;
+  for (let i = 0; i < length; i++) {
+    const nmbr = document.createElement("div");
+    nmbr.classList.add("numbertext");
+    nmbr.innerText = i + 1 + " / " + length;
 
-$owlCarousel.on("changed.owl.carousel", e => {
-  $(".owl-slide-animated").removeClass("is-transitioned");
-
-  const $currentOwlItem = $(".owl-item").eq(e.item.index);
-  $currentOwlItem.find(".owl-slide-animated").addClass("is-transitioned");
-
-  const $target = $currentOwlItem.find(".owl-slide-text");
-  doDotsCalculations($target);
-});
-
-$owlCarousel.on("resize.owl.carousel", () => {
-  setTimeout(() => {
-    setOwlDotsPosition();
-  }, 50);
-});
-
-/*if there isn't content underneath the carousel*/
-//$owlCarousel.trigger("refresh.owl.carousel");
-
-setOwlDotsPosition();
-
-function setOwlDotsPosition() {
-  const $target = $(".owl-item.active .owl-slide-text");
-  doDotsCalculations($target);
+    carousel.querySelectorAll(".item")[i].append(nmbr);
+  }
 }
 
-function doDotsCalculations(el) {
-  const height = el.height();
-  const {top, left} = el.position();
-  const res = height + top + 20;
+function insertDots(carousel) {
+  const dots = document.createElement("div");
+  dots.classList.add("dots");
 
-  $(".owl-carousel .owl-dots").css({
-    top: `${res}px`,
-    left: `${left}px`
+  carousel.append(dots);
+
+  carousel.querySelectorAll(".item").forEach((elem) => {
+    const dot = document.createElement("div");
+    dot.classList.add("dot");
+
+    carousel.querySelector(".dots").append(dot);
   });
+}
+
+function plusItem(carousel) {
+  let item = currentItem(carousel);
+
+  carousel
+    .querySelectorAll(".item")
+    [item].nextElementSibling.classList.contains("item")
+    ? showItems(carousel, item + 1)
+    : showItems(carousel, 0);
+}
+
+function minusItem(carousel) {
+  let item = currentItem(carousel);
+
+  carousel.querySelectorAll(".item")[item].previousElementSibling != null
+    ? showItems(carousel, item - 1)
+    : showItems(carousel, carousel.querySelectorAll(".item").length - 1);
+}
+
+function currentItem(carousel) {
+  return [...carousel.querySelectorAll(".item")].findIndex(
+    (item) => item.style.display == "block"
+  );
+}
+
+function showItems(carousel, item) {
+  if (carousel.querySelectorAll(".item")[currentItem(carousel)] != undefined)
+    carousel.querySelectorAll(".item")[currentItem(carousel)].style.display =
+      "none";
+  carousel.querySelectorAll(".item")[item].style.display = "block";
+
+  if (carousel.querySelector(".dot.active") != null)
+    carousel.querySelector(".dot.active").classList.remove("active");
+  carousel.querySelectorAll(".dot")[item].classList.add("active");
 }
