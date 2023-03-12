@@ -4,6 +4,14 @@ header{
 	max-height: 40px;
 	min-height: 40px;
 	background-color: rgba(43, 43, 43, 1);
+	display: flex;
+	flex-direction: row;
+	vertical-align: middle;
+}
+#header{
+	display: flex;
+	flex-direction: row;
+    position: absolute;
 }
 nav a{
 	text-decoration: none;
